@@ -18,7 +18,7 @@ file_put_contents("location.txt", $locationMessage . PHP_EOL . $mapsUrlMessage .
 echo $locationMessage . "\n";
 echo $mapsUrlMessage . "\n";
 
-$webhookUrl = 'https://discord.com/api/webhooks/1361553545379188917/QSKZGGkXtDeqUD4c61hEatZHfY8bD1BObJ1sM250eZpL6O_ocP45oYK1iVy8Y-3eB44q';
+$webhookUrl = 'token';
 
 function sendToDiscord($message, $webhookUrl) {
     $json = json_encode(["content" => $message], JSON_UNESCAPED_UNICODE);
